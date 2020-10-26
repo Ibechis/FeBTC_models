@@ -1,0 +1,129 @@
+opti conp noautobond fix molmec orthorhombic cartesian
+vectors
+  30.000    0.000    0.000 
+   0.000   30.000    0.000 
+   0.000    0.000   30.000 
+cartesian
+O1      core     16.43700000     14.77290000     18.79890000 
+O1      core     14.23710000     15.14010000     19.52490000 
+C2      core     15.52230000     14.49540000     19.95630000 
+Fe3     core     13.11390000     15.70800000     18.09780000 
+O1      core     12.05100000     16.32810000     16.69380000 
+C2      core     11.59590000     15.85110000     15.61590000 
+O1      core     12.05100000     14.77290000     15.13890000 
+O1      core     16.43700000     14.30400000     15.05790000 
+O1      core     14.23710000     13.93710000     14.33190000 
+O1      core     19.46400000     17.13390000     12.54390000 
+O4      core     18.92700000     17.84010000     10.24380000 
+O1      core     12.87990000     14.89410000      9.64080000 
+O4      core     14.20890000     16.52310000      8.35890000 
+C5      core     16.49490000     16.20300000     10.23270000 
+C5      core     14.88900000     14.75910000     11.66970000 
+C5      core     17.33910000     16.37910000     11.48670000 
+C5      core     15.80610000     15.03000000     12.82890000 
+C5      core     17.16300000     15.55110000     12.67470000 
+C5      core     15.13890000     15.55110000     10.45290000 
+C2      core     15.47610000     14.41410000     14.14890000 
+C2      core     14.27490000     15.27600000      9.20790000 
+C2      core     18.35010000     17.53500000     11.60580000 
+O1      core     14.23710000     17.13510000     17.52990000 
+Fe3     core     16.12110000     14.53890000     16.92870000 
+O7      core     14.15610000     14.53890000     16.92870000 
+Fe3     core     13.11390000     13.36890000     15.75870000 
+O1      core     12.05100000     14.30400000     18.71790000 
+O4      core     12.07290000     12.26490000     14.65470000 
+O1      core     12.05100000     12.74910000     17.16270000 
+C2      core     11.59590000     13.22610000     18.24090000 
+O1      core     14.23710000     11.94210000     16.32690000 
+O4      core     18.10890000     14.53890000     16.92870000 
+O1      core     16.43700000     16.40910000     17.16270000 
+O1      core     16.43700000     12.66810000     16.69380000 
+C2      core     15.47610000     17.31810000     17.05290000 
+C2      core     15.47610000     11.75910000     16.80390000 
+H8      core     18.99510000     13.70910000     17.79090000 
+H8      core     18.99510000     15.29790000     16.12890000 
+H8      core     14.13090000     14.06100000     11.72280000 
+H8      core     17.92410000     15.35190000     13.34280000 
+H8      core     16.81890000     16.50390000      9.30090000 
+H8      core     11.34000000     10.82910000     15.00990000 
+H8      core     11.62110000     12.49590000     13.10190000 
+H8      core     19.65510000     18.67410000     10.32570000 
+H8      core     13.59000000     16.32510000      7.45890000 
+F9      core     11.69400000     16.71690000     19.03890000 
+H8      core     15.16950000     11.23590000     17.76900000 
+H8      core     10.97790000     16.50090000     14.91180000 
+H8      core     10.78290000     12.50640000     18.58860000 
+H8      core     15.91710000     15.02130000     20.88750000 
+H8      core     15.45660000     18.22980000     16.36890000 
+
+connect 1   3     resonant
+connect 2   3     resonant
+connect 2   4         half
+connect 4   5         half
+connect 5   6     resonant
+connect 6   7     resonant
+connect 14  16    resonant
+connect 15  17    resonant
+connect 16  18    resonant
+connect 17  18    resonant
+connect 14  19    resonant
+connect 15  19    resonant
+connect 8   20    resonant
+connect 9   20    resonant
+connect 17  20    
+connect 12  21    resonant
+connect 13  21    
+connect 19  21    
+connect 10  22    resonant
+connect 11  22   
+connect 16  22    
+connect 4   23        half
+connect 1   24        half
+connect 8   24        half
+connect 4   25        half 
+connect 24  25        half
+connect 7   26        half
+connect 9   26        half
+connect 25  26        half
+connect 4   27        half
+connect 26  28        half
+connect 26  29        half
+connect 27  30    resonant
+connect 29  30    resonant
+connect 26  31        half
+connect 24  32        half
+connect 24  33        half
+connect 24  34        half
+connect 23  35    resonant
+connect 33  35    resonant
+connect 31  36    resonant
+connect 34  36    resonant
+connect 15  39  
+connect 18  40  
+connect 14  41
+connect 28  42
+connect 28  43
+connect 32  37
+connect 32  38
+connect 11  44  
+connect 13  45  
+connect 4   46        
+connect 36  47  
+connect 6   48  
+connect 30  49  
+connect 3   50  
+connect 35  51  
+
+species
+Fe3   Fe6+3 
+H8    H_   
+O7    O_2_z
+O1    O_2  
+F9    F_    
+C2    C_2
+O4    O_3  
+C5	  C_R
+
+library uff4mof.lib
+
+MIL_fragment_UFF4MOF_GULP_optimised.xyz
